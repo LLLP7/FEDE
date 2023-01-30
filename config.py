@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "24055131"))
+API_HASH = getenv("API_HASH", "14e001ad50b6de6e4e411c6b80367125")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
 OWNER_USERNAME = getenv("OWNER_USERNAME", "LLL7P")
 ALIVE_NAME = getenv("ALIVE_NAME", "ToBy")
-BOT_USERNAME = getenv("BOT_USERNAME", "")
+BOT_USERNAME = getenv("BOT_USERNAME", "RLRLBOT")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/LLL7P/fede")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "100"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ZZZZ7LZ")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "RRRJ6")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5072874938").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5072874938").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
